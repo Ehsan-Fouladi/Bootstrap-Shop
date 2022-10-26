@@ -1,3 +1,24 @@
 $(function(){
+    $('.owl-carousel').owlCarousel({
+        rtl:true,
+        loop:true,
+        margin:50,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:2,
+                nav:true
+            },
+            600:{
+                items:4,
+                nav:false
+            },
+            1000:{
+                items:5,
+                nav:true,
+                loop:false
+            }
+        }
+    })
     AOS.init();
 })

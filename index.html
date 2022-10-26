@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.carousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.rtl.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <title>فروشگاه</title>
 </head>
@@ -102,7 +105,7 @@
     </div>
     <!-- service -->
     <div class="container" >
-      <div class="row services">
+      <div class="row services" data-aos="flip-right" data-aos-delay="900">
         <h2>خدمات فروشگاه</h2>
         <div class="col-md-3 col-sm-6 col-sx-12">
           <img src="image/1.png" alt="image" class="img-circle" height="200px" width="200px" >
@@ -118,10 +121,26 @@
         </div>
       </div>
     </div>
+    
+    <div class="container" >
+      <div class="services">
+        <h2>جدید ترین ها</h2>
+        <div class="owl-carousel">
+          <div> <img src="image/Products/2.jpg" alt=""><a href="" class="btn btn-success">علاقه مندی ها</a><a href="" class="btn btn-info">سبد</a></div>
+          <div> <img src="image/Products/2.jpg" alt=""><a href="" class="btn btn-success">علاقه مندی ها</a><a href="" class="btn btn-info">سبد</a></div>
+          <div> <img src="image/Products/1.jpg" alt=""><a href="" class="btn btn-success">علاقه مندی ها</a><a href="" class="btn btn-info">سبد</a></div>
+          <div> <img src="image/Products/1.jpg" alt=""><a href="" class="btn btn-success">علاقه مندی ها</a><a href="" class="btn btn-info">سبد</a></div>
+          <div> <img src="image/Products/5.jpg" alt=""><a href="" class="btn btn-success">علاقه مندی ها</a><a href="" class="btn btn-info">سبد</a></div>
+          <div> <img src="image/Products/5.jpg" alt=""><a href="" class="btn btn-success">علاقه مندی ها</a><a href="" class="btn btn-info">سبد</a></div>
+          <div> <img src="image/Products/1.jpg" alt=""><a href="" class="btn btn-success">علاقه مندی ها</a><a href="" class="btn btn-info">سبد</a></div>
+        </div>
+      </div>
+    </div>
+    
     <!-- Products -->
     <div class="container" >
       <div class="row Products" >
-        <div class="col-md-9 col-sm-12 col-xs-12 text-center">
+        <div class="col-md-9 col-sm-12 col-xs-12 text-center" data-aos="fade-up" data-aos-delay="500">
           <h1>محصولات ما</h1>
           <div class="col-sm-6 col-md-4 col-xs-12 ">
             <div class="thumbnail">
@@ -136,7 +155,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-xs-12 ">
+          <div class="col-sm-6 col-md-4 col-xs-12 " data-aos="fade-up" data-aos-delay="500">
             <div class="thumbnail">
               <img src="image/Products/2.jpg" alt="image">
               <div class="caption">
@@ -149,7 +168,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-xs-12 ">
+          <div class="col-sm-6 col-md-4 col-xs-12 " data-aos="fade-up" data-aos-delay="500">
             <div class="thumbnail">
               <img src="image/Products/1.jpg" alt="image">
               <div class="caption">
@@ -162,7 +181,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-xs-12 ">
+          <div class="col-sm-6 col-md-4 col-xs-12 " data-aos="fade-up" data-aos-delay="500">
             <div class="thumbnail">
               <img src="image/Products/1.jpg" alt="image">
               <div class="caption">
@@ -175,7 +194,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-xs-12 ">
+          <div class="col-sm-6 col-md-4 col-xs-12 " data-aos="fade-up" data-aos-delay="500">
             <div class="thumbnail">
               <img src="image/Products/5.jpg" alt="image">
               <div class="caption">
@@ -188,7 +207,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-xs-12 ">
+          <div class="col-sm-6 col-md-4 col-xs-12 " data-aos="fade-up" data-aos-delay="500">
             <div class="thumbnail">
               <img src="image/Products/5.jpg" alt="image">
               <div class="caption">
@@ -247,7 +266,7 @@
             <div class="panel-heading">
               <h4 class="panel-title">پر فروش ترین ها</h4>
             </div>
-            <div class="panel-body">
+            <div class="panel-body" data-aos="zoom-in" data-aos-delay="500">
               <div class="thumbnail">
                 <img src="image/Products/2.jpg" alt="image">
                 <div class="caption">
@@ -257,7 +276,7 @@
                     </p>
                 </div>
               </div>
-              <div class="thumbnail">
+              <div class="thumbnail" data-aos="zoom-in" data-aos-delay="500">
                 <img src="image/Products/2.jpg" alt="image">
                 <div class="caption">
                   <h4>کیبورد بی سیم </h4>
@@ -377,6 +396,10 @@
     <!-- Modal -->
 
     <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="css/owl.carousel/owl.carousel.min.js"></script>
     <script src="js/bootstrap-rtl.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
