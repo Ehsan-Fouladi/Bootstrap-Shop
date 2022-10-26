@@ -1,0 +1,47 @@
+nav.navbar-fixed-top{
+    background: #130e0ee0;
+}
+div.services{
+    margin-top: 70px;
+    text-align: center;
+}
+div.services h2{
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid royalblue;
+}
+div.services div img{
+    margin: 10px auto;
+}
+div.Products{
+    margin-top: 70px ;
+}
+div.Products div h1 {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid slateblue;
+}
+div.sidebar h3{
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgb(59, 211, 216);
+}
+span.badge{
+    float: left;
+}
+div.groups button{
+    text-align: right;
+}
+div.panel-primary{
+    text-align: center;
+    margin-top: 20px;
+}
+div.footer{
+    padding-top: 10px auto;
+    padding-bottom: 10px auto;
+    background-color: darkorange;
+    color: white;
+    font-size: large;
+}
